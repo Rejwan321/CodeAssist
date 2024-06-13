@@ -1,0 +1,2 @@
+SELECT city, LENGTH(city) FROM Station GROUP BY city ORDER BY 2 ASC,1 LIMIT 1 ;
+SELECT city, LENGTH(city) FROM Station GROUP BY city ORDER BY 2 DESC,1 LIMIT 1;
